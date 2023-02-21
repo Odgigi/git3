@@ -1,0 +1,63 @@
+support: https://formation.webdevpro.net/git
+login:
+password:
+
+notes de cours sur Github
+https://github.com/webdevproformation/git-d-janvier-2023
+------------------------------
+
+git/ Github
+=> outil de versionning
+
+=> projet informatique
+=> plus votre projet va évoluer plus on arrive sur des fonctionnalités que l'on ne connaît password
+=> plus les fonctionnalités évoluent, c'est la première fois qu'on expérimente
+=> plus il y a de chances de modifier le mauvais fichier
+
+=> copie du dossier qui contient tout le projet => nom de version => date/ fonctionnalité...
+=> idéal pour de petits projets // 1 seul développeur
+
+=> gros projet => Linux
+millier des fichiers / très nombreux développeurs
+=> 1 seule personne dédiée à coordonner toutes les évolutions du projet
+
+=> Linus Torvald => a inventé git en réaction à svn = autre système de conciliation extrêment lent
+=> git = connard en anglais (personne stupide et déplaisante)
+
+git outil de versionning qui permet de répondre à 4 questions:
+=> quel fichier ?
+=> qui l'a modifié ?
+=> quand modifié ?
+=> pourquoi il a été modifié ?
+
+=> projet: pouvoir répondre à ces 4 questions sur tous les fichiers du projet en permanence
+
+git outil que l'on peut utiliser de plein de manières différentes
+- ligne de commande
+- logiciel avec boutons
+- Visual Studio Code => module installé par défaut icône "Source Control"
+
+---------------------
+
+=> ligne de commande
+=> module VSC
+Windows invite de commande
+Linux Shell
+Mac OS terminal
+
+outil qui permet d'exécuter des programmes
+=> gérer l'ordinateur
+=> recherche
+
+=> dir + entrée > affiche le contenu du dossier en cours
+=> dir /p >  dir /h > fichiers masqués
+=> cls => clear : vide l'invote de commande
+=> cd => change directory => chanche de dossier, rare qu'elle soit seule, informations complémentaires : changer pour aller où ?
+=> suivie de paramètres cd.. > remonte dans le dossier parent
+=> ou cd nom_dossier > y va
+=> tree > liste complète de tous les dossiers en cours = arborescence de l'ordinateur
+=> tree /F(flag) > afiiche tous les fichiers de l'ordinateur 
+=> tree /A(flag) => tous les dossiers
+
+
+
