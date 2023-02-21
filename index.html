@@ -4,48 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Accueil</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <!-- As a link -->
-        <nav class="navbar bg-dark navbar-dark">
+    <div class="container-fluid bg-info d-inline-flexjustify-content-center">
+        <div class="row align-items-center">
+            <div class="col-5 text-center">
+                <span class="bg-warning fs-1">
+                    <img width="245px" src="logo2.png" alt="Logo The Goat">
+                </span>
+            </div>
+            <div class="col-2">
+                <nav class="navbar bg-dark navbar-dark justify-content-around">
+                    <span class="navbar-brand fs-1">
+                        🐐
+                    </span>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-5 text-center">
+                    <h1 class="text-white">Bienvenue sur mon site !</h1>
+            </div>
+        </div>
+    </div>
+        
+        <section class="mb-3">
             
-            <div class="container-fluid d-flex justify-content-center">
-                <span class="navbar-brand">
-            🐐
-            </span>
-            <a class="navbar-brand" href="#">Accueil</a>
-            <a class="navbar-brand" href="#">Blog</a>
-            <a class="navbar-brand" href="#">Contact</a>
+            <div id="carouselExample" class="carousel slide container-fluid" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <figure class="carousel-item active">
+                        <img src="pexels-julia-vilner-grand.jpg" class="d-block w-100 object-fit-cover" height="600px" alt="Mannequin en robe bustier appuyé au parapet d'un pont">
+                        <!-- https://source.unsplash.com/random/1400x200-->
+                    </figure>
+                    <figure class="carousel-item">
+                        <img src="pexels-elliot-ogbeiwi-moyen.jpg" class="d-block w-100 object-fit-cover" height="600px" alt="Mannequin robe de mariée">
+                    </figure>
+                    <figure class="carousel-item">
+                        <img src="pexels-amine-i̇spir-petit.jpg" class="d-block w-100 object-fit-cover" height="600px" alt="Buste de femme découpée en transparence">
+                    </figure>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </nav>
-        <section id="carouselExample" class="carousel slide container mt-5" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <figure class="carousel-item active">
-                <img src="pexels-julia-vilner-grand.jpg" class="d-block w-100 object-fit-cover" height="600px" alt="Mannequin appuyé à une balustrade près d'un pont">
-                <!-- https://source.unsplash.com/random/1400x200-->
-              </figure>
-              <figure class="carousel-item">
-                <img src="pexels-elliot-ogbeiwi-moyen.jpg" class="d-block w-100 object-fit-cover" height="600px" alt="Mannequin robe de mariée">
-              </figure>
-              <figure class="carousel-item">
-                <img src="pexels-amine-i̇spir-petit.jpg" class="d-block w-100 object-fit-cover" height="600px" alt="Buste de femme découpée en transparence">
-              </figure>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </section>
+        </section>
     </header>
     <main>
-        <section class="container">
+        <section class="container bg-dark text-white py-3">
             <div class="row">
                 <div class="col">
                     <h2>Nous contacter</h2>
@@ -70,10 +93,10 @@
             </div>
         </section>
         
-        <section class="container py-5">
-            <div class="row">
-                <article class="col">
-                    <div class="card" style="width: 18rem;">
+        <section class="container bg-danger py-5">
+            <div class="row bg-secondary">
+                <article class="col bg-success p-2 mb-3">
+                    <div class="card">
                         <img src="https://source.unsplash.com/random/400x200" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -82,8 +105,8 @@
                         </div>
                     </div>
                 </article>
-                <article class="col">
-                    <div class="card" style="width: 18rem;">
+                <article class="col bg-success p-2 mb-3">
+                    <div class="card">
                         <img src="https://source.unsplash.com/random/400x201" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -92,8 +115,8 @@
                         </div>
                     </div>
                 </article>
-                <article class="col">
-                    <div class="card" style="width: 18rem;">
+                <article class="col bg-success p-2 mb-3">
+                    <div class="card">
                         <img src="https://source.unsplash.com/random/400x202" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>

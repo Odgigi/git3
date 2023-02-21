@@ -1,0 +1,70 @@
+----------travailler avec git sur projet
+=> créer un repository = dépôt => dossier dans lequel Git stocke l'évolution du projet
+
+
+--- lancer l'exploreur Windows
+
+--- aller dans le dossier qui contient mon projet
+
+--- barre d'adresse de l'explorer => cmd au début de l'adresse (path) Espace Enter
+
+--- ouvrir un terminal dans le dossier C:\Users\stagiaire\Desktop\git> (prompt)
+
+=> lancer un terminal à la racine de notre projet=> dossier root de notre projet
+
+=> git init
+
+Initialized empty Git repository in C:/Users/stagiaire/Desktop/git/.git/
+créer un repository => dossier qui va contenir le versioning de mon projet
+=> dossier .git = dossier caché
+=> si on veut le voir : \.git dans la barre d'adresse => c'est dans ce dossier que le versioning est réalisé
+=> ne pas écrire dans ce fichier: c'est via le terminal que l'on va réaliser des modifications
+=> attention le dossier .git n'existe que dans les dossiers dans lesquels on a réalisé git init
+
+=> cas pratique : créer une fichier index.html
+=> installer Bootstrp
+=> créer un menu (Navbar)
+
+=> 3 liens : Accueil Blog Contact
+
+
+git add index.html
+git commit -m "ajouter diaporama"
+
+à la suite du diaporama :2 colonnes
+
+1e colonne contient un formulaire
+saisir un emailchamp saisir un complémentairesbouton de soumission
+
+2e colonne
+google map
+
+git add index.html
+git commit -m "ajout formulaire + carte"
+
+gitk > pour visionner le détail des commits
+=> fait des copies incrémentales, ce qui permet de visualiser uniquement les modifications
+
+git log --oneline > affiche l'ensemble des commits réalisés avec leurs id
+
+git checkout 9b39b6d (exemple)
+
+git checkout master
+
+-- dans ma page rajouter 3 cards
+
+je viens de finir la page d'Accueil du suite
+=> page blog du site => créer une branche spéciale pour la page blog=> si ke finis et le client content => merge
+
+=> si je finis et que le client me dit non => supprimer la branche
+
+bien sauvegarder +
+git add + git commit
+
+
+=> git branch page-blog créer une première branch dans mon projet
+=> git checkout page-blog
+
+Swiched to branch 'page-blog'
+M index.html
+
