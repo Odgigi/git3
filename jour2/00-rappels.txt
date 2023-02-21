@@ -1,10 +1,10 @@
 git 
 
-Versionning ( incrémental ) 4 questions :
-- quel fichier 
-- qui l'a modifié
-- quand
-- pourquoi  
+Versionning (incrémental) répond à 4 questions :
+- quel fichier ?
+- qui l'a modifié ?
+- quand ?
+- pourquoi ?
 
 => outil qui rentre dans le Flux de Travail => dès que vous avez fini une fonctionnalité 
 
@@ -64,12 +64,12 @@ git commit -m "start nouvelle branch"
 => positionner sur cette branch => git checkout page-contact 
 
 => créer le fichier contact.html 
-=> menu en entête de page 
+=> menu en en-tête de page 
 => en dessous du menu formulaire 
 champ saisir l'email 
 menu déroulant pour choisir un service => commercial / informatique 
 https://getbootstrap.com/docs/5.3/forms/select/
-champ dans le quel vous pouvez saisir un commentaire multiligne 
+champ dans lequel vous pouvez saisir un commentaire multiligne 
 bouton de soumission 
 
 enregistrer la version sur la branch 
@@ -77,8 +77,8 @@ git add --all
 git commit -m "start nouvelle branch" 
 
 fusionner la branch page-contact  avec la branch master
-git checkout mastergit merge page-contact
-
+git checkout master
+git merge page-contact
 
 créer une nouvelle branche => footer
 
@@ -87,7 +87,7 @@ créer une nouvelle page mentions-legales.html
 remplir de texte
 modifier les footer de toutes les pages
 
-git add git commit (menu à gauche)
+(menu à gauche) => bouton "commit" = git add git commit (ajouter message du commit) + push
 
 revenir sur la branch master
 fusionner la branch master avec la branch mentions-legales
