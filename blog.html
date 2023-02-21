@@ -5,17 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar bg-dark navbar-dark"> 
-        <div class="container-fluid d-flex justify-content-center">
-            <span class="navbar-brand">
-            🐐
+    <div class="bg-dark">
+        <nav class="navbar navbar-expand container navbar-dark ">
+            <span class="navbar-brand fs-1">
+                🐐
             </span>
-            <a class="navbar-brand" href="index.html">Accueil</a>
-            <a class="navbar-brand" href="blog.html">Blog</a>
-            <a class="navbar-brand" href="#">Contact</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link ">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link active">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="container m-auto w-100 mt-5 p-3">
+        <div class="row">
+            <div class="col-5">
+                <h1>🏛️Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, corporis.</h1>
+                <img src="https://source.unsplash.com/random/400x200" alt="" class="img-fluid my-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum in et quaerat, recusandae dolores minus. Omnis ipsam adipisci numquam id?</p>
+            </div>
+            <div class="col-7">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://source.unsplash.com/random/400x201" alt="" class="img-fluid">
+                        <h3>🗻Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iure numquam facere magni quam exercitationem voluptates tempore eum itaque maiores.</p>
+                        <hr>
+                        <img src="https://source.unsplash.com/random/400x202" alt="" class="img-fluid">
+                        <h3>🗻Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iure numquam facere magni quam exercitationem voluptates tempore eum itaque maiores.</p>
+                        
+                    </div>
+                    <div class="col-8">
+                        <img src="https://source.unsplash.com/random/700x203" alt="" class="img-fluid">
+                        <div style="margin-top: -100px; position: relative; z-index:1">
+                            <article class="m-5 p-4 text-center bg-white border">
+                                <h3 class="fs-4">🏖️Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, explicabo!</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit accusantium commodi ex eligendi, ducimus expedita aliquid totam saepe dolor.</p>
+                            </article>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
+    </section>
+    <footer class="text-center my-4">
+        &copy; Odile Girgiel - <a href="mentions-legales.html">Mentions légales</a>
+    </footer>
 </body>
 </html>
